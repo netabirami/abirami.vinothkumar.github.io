@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abirami Vinoth Kumar | QA Software Testing Engineer</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
+            color: #1f2933;
+            line-height: 1.6;
+        }
+
+        header {
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        nav h1 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #334155;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #475569;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        .hero {
+            max-width: 1100px;
+            margin: 60px auto;
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 40px;
+            padding: 0 20px;
+        }
+
+        .hero-text h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .hero-text p {
+            font-size: 16px;
+            color: #475569;
+            margin-bottom: 25px;
+        }
+
+        .hero img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 22px;
+            background: #2563eb;
+            color: white;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        section h3 {
+            font-size: 26px;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        @media (max-width: 900px) {
+            .hero {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>QA Engineer</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>Abirami Vinoth Kumar</h2>
+        <p>
+            Senior QA / Software Testing Engineer with strong experience in manual testing,
+            automation testing, API testing, and SaaS product quality. I focus on stable
+            production releases and great user experience.
+        </p>
+        <a class="btn" href="https://www.linkedin.com/in/abirami-vinoth-kumar-593192227/" target="_blank">View LinkedIn</a>
+    </div>
+
+    <!-- Replace profile.jpg with your resume photo -->
+    <img src="profile.jpg" alt="Profile Photo">
+</section>
+
+<section id="about">
+    <h3>About Me</h3>
+    <div class="card">
+        <p>
+            I am a Senior QA Engineer with 8+ years experience in web testing, backend testing,
+            and SaaS platforms. I work closely with product and engineering teams to make sure
+            features are clear, testable, and ready for production.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h3>Skills</h3>
+    <div class="skills-grid">
+        <div class="card">
+            <h4>Testing Types</h4>
+            <p>Functional, Regression, Integration, E2E, Exploratory, UI, API</p>
+        </div>
+        <div class="card">
+            <h4>Automation</h4>
+            <p>Selenium (Java), Rest Assured</p>
+        </div>
+        <div class="card">
+            <h4>Tools</h4>
+            <p>Postman, Jira, Confluence, Git, Maven</p>
+        </div>
+        <div class="card">
+            <h4>Tech Knowledge</h4>
+            <p>Spring Boot, MySQL, SQLite, CI/CD, Agile</p>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <h3>Experience</h3>
+
+    <div class="card">
+        <h4>QA Engineer — NUNAMI</h4>
+        <p>Testing B2B SaaS visitor recovery product for e-commerce stores. Testing full user recovery flows, browsers, devices, and product recommendation logic.</p>
+    </div>
+
+    <div class="card">
+        <h4>QA Automation Engineer — Automation24</h4>
+        <p>Built UI automation using Java + Selenium. Designed automation test cases and worked closely with product and dev teams.</p>
+    </div>
+
+    <div class="card">
+        <h4>QA Engineer — WeHelp</h4>
+        <p>Created test plans, reviewed requirements, tracked defects, and worked in Agile teams.</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h3>Contact</h3>
+    <div class="card">
+        <p>Email: netty.abirami@gmail.com</p>
+        <p>Phone: +49 XXX XXX XXXX</p>
+        <p>Location: Berlin, Germany</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Abirami Vinoth Kumar | QA Software Testing Engineer
+</footer>
+
+</body>
+</html>
